@@ -141,7 +141,10 @@ export default function HomePage() {
 				</strong>
 				<p className='mt-2 mb-0 text-blue-900'>
 					Помните чеклист &quot;Взять с собой&quot; на{' '}
-					<Link href='uhodovo.vercel.app' className='text-blue-700 underline'>
+					<Link
+						href='https://uhodovo.vercel.app'
+						className='text-blue-700 underline'
+					>
 						главной странице
 					</Link>
 					? Теперь он запоминает, какие пункты вы нажали. Если закроете страницу
