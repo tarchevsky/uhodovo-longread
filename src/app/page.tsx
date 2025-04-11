@@ -5,8 +5,9 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-	title: 'Главная',
-	description: 'Дескрипшен главной страницы'
+	title: 'Лонгрид как выбрать сайт',
+	description:
+		'На этой странице вы тезисно узнаете, как подобрать себе сап, какие критерии важно учесть и немного о ценах'
 }
 
 export default function HomePage() {
