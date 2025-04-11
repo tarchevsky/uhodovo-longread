@@ -12,7 +12,8 @@ const Figure = ({
 	figureClass,
 	imageClass,
 	figcaptionClass,
-	unoptimized
+	unoptimized,
+	priority
 }: FigureProps) => {
 	return (
 		<>
@@ -32,6 +33,7 @@ const Figure = ({
 							className={`object-contain hover:brightness-90 transition-all ease-in-out ${imageClass}`}
 							quality={75}
 							unoptimized={unoptimized}
+							priority={priority}
 						/>
 						<figcaption className={`text-center ${figcaptionClass}`}>
 							{caption}

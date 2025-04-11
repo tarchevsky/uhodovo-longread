@@ -24,6 +24,7 @@ export default function HomePage() {
 				height={600}
 				width={600}
 				imageClass='m-auto border-[1px] border-gray-300 p-1'
+				priority
 			/>
 			<ol>
 				<li>
